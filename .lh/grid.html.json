@@ -1,0 +1,114 @@
+{
+    "sourceFile": "grid.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1709892983534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709893727210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+<!DOCTYPE html>\n+<html>\n+\n+    <head>\n+        <title>Grid Practice</title>\n+    </head>\n+\n+\n+    <body style=\"padding-bottom: 10px;\">\n+        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n+                <div style=\"background-color: lightblue;\"> div 1</div>\n+                <div style=\"background-color: lightpink;\">div 2</div>\n+        </div>\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893738033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,23 +5,8 @@\n         <title>Grid Practice</title>\n     </head>\n \n \n-    <body style=\"padding-bottom: 10px;\">\n-        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n-                <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2</div>\n-        </div>\n-    </body>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-    <head>\n-        <title>Grid Practice</title>\n-    </head>\n-\n-\n     <body style=\"padding-bottom: 1000px;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2</div>\n"
+                },
+                {
+                    "date": 1709893750316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <title>Grid Practice</title>\n     </head>\n \n \n-    <body style=\"padding-bottom: 1000px;\">\n+    <body style=\"padding-bottom: 1000px;background-color: red;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2</div>\n         </div>\n"
+                },
+                {
+                    "date": 1709893763432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+<!DOCTYPE html>\n+<html>\n+\n+    <head>\n+        <title>Grid Practice</title>\n+    </head>\n+\n+\n+    <body style=\"padding-bottom: 100px;background-color: red;\">\n+        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n+                <div style=\"background-color: lightblue;\"> div 1</div>\n+                <div style=\"background-color: lightpink;\">div 2</div>\n+        </div>\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893783720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,26 +5,11 @@\n         <title>Grid Practice</title>\n     </head>\n \n \n-    <body style=\"padding-bottom: 100px;background-color: red;\">\n+    <body style=\"padding-top: 10000px;background-color: red;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2</div>\n         </div>\n     </body>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-    <head>\n-        <title>Grid Practice</title>\n-    </head>\n-\n-\n-    <body style=\"padding-bottom: 1000px;background-color: red;\">\n-        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n-                <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2</div>\n-        </div>\n-    </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893798029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <title>Grid Practice</title>\n     </head>\n \n \n-    <body style=\"padding-top: 10000px;background-color: red;\">\n+    <body style=\"padding-bottom: 1000px;background-color: red;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2</div>\n         </div>\n"
+                },
+                {
+                    "date": 1709893809301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <title>Grid Practice</title>\n     </head>\n \n \n-    <body style=\"padding-bottom: 1000px;background-color: red;\">\n+    <body style=\"padding-bottom: 1000px;background-color: green;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2</div>\n         </div>\n"
+                },
+                {
+                    "date": 1709893860760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n \n     <body style=\"padding-bottom: 1000px;background-color: green;\">\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2</div>\n+                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n         </div>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893885820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,10 @@\n         <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n         </div>\n+\n+        <div style=\"margin-top: 30px;\">\n+\n+        </div>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893900451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,12 @@\n                 <div style=\"background-color: lightblue;\"> div 1</div>\n                 <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n         </div>\n \n-        <div style=\"margin-top: 30px;\">\n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        \">\n \n         </div>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709893932422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n \n         <div style=\"\n         margin-top: 30px;\n         display: grid;\n+        grid-template-columns: 100px 100px 200px;\n         \">\n \n         </div>\n     </body>\n"
+                },
+                {
+                    "date": 1709893975608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+<!DOCTYPE html>\n+<html>\n+\n+    <head>\n+        <title>Grid Practice</title>\n+    </head>\n+\n+\n+    <body style=\"padding-bottom: 1000px;background-color: green;\">\n+        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n+                <div style=\"background-color: lightblue;\"> div 1</div>\n+                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n+        </div>\n+\n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        grid-template-columns: 100px 100px 200px;\n+        \">\n+\n+        <div style=\"background-color: lightblue;\">100px</div>\n+        </div>\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894032056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<!DOCTYPE html>\n+<html>\n+\n+    <head>\n+        <title>Grid Practice</title>\n+    </head>\n+\n+\n+    <body style=\"padding-bottom: 1000px;background-color: green;\">\n+        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n+                <div style=\"background-color: lightblue;\"> div 1</div>\n+                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n+        </div>\n+\n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        grid-template-columns: 100px 100px 200px;\n+        \">\n+\n+        <div style=\"background-color: lightblue;\">100px</div>\n+        <div style=\"background-color: lightpink;\">100px<p>text</p></div>\n+        </div>\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894050181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,54 +19,8 @@\n         \">\n \n         <div style=\"background-color: lightblue;\">100px</div>\n         <div style=\"background-color: lightpink;\">100px<p>text</p></div>\n+        <div style=\"background-color: lightblue;\">200px</div>\n         </div>\n     </body>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-    <head>\n-        <title>Grid Practice</title>\n-    </head>\n-\n-\n-    <body style=\"padding-bottom: 1000px;background-color: green;\">\n-        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n-                <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n-        </div>\n-\n-        <div style=\"\n-        margin-top: 30px;\n-        display: grid;\n-        grid-template-columns: 100px 100px 200px;\n-        \">\n-\n-        <div style=\"background-color: lightblue;\">100px</div>\n-        </div>\n-    </body>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-    <head>\n-        <title>Grid Practice</title>\n-    </head>\n-\n-\n-    <body style=\"padding-bottom: 1000px;background-color: green;\">\n-        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n-                <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n-        </div>\n-\n-        <div style=\"\n-        margin-top: 30px;\n-        display: grid;\n-        grid-template-columns: 100px 100px 200px;\n-        \">\n-\n-        </div>\n-    </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894300608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,9 @@\n \n         <div style=\"background-color: lightblue;\">100px</div>\n         <div style=\"background-color: lightpink;\">100px<p>text</p></div>\n         <div style=\"background-color: lightblue;\">200px</div>\n+        <div style=\"background-color: lightpink;\">100px</div>\n+\n         </div>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894310453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,7 @@\n         <div style=\"background-color: lightblue;\">200px</div>\n         <div style=\"background-color: lightpink;\">100px</div>\n \n         </div>\n+        \n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894375404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,18 @@\n         <div style=\"background-color: lightblue;\">200px</div>\n         <div style=\"background-color: lightpink;\">100px</div>\n \n         </div>\n+\n+\n+        <div style=\"\n+         margin-top: 30px;\n+         display: grid;\n+         grid-template-columns: 100px 1fr 2fr;\n+        \">\n+\n         \n+\n+        </div>\n+\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894427072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n          display: grid;\n          grid-template-columns: 100px 1fr 2fr;\n         \">\n \n-        \n+            <div style=\"background-color: lightblue;\">100px</div>\n+            <div style=\"background-color: lightpink;\">1fr</div>\n+            <div style=\"background-color: lightblue;\">2fr</div>\n \n         </div>\n \n     </body>\n"
+                },
+                {
+                    "date": 1709894570266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,21 @@\n         <div style=\"background-color: lightpink;\">100px</div>\n \n         </div>\n \n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        grid-template-columns: 100px 1fr;\n+       \">\n \n+           <div style=\"background-color: lightblue;\">100px</div>\n+           <div style=\"background-color: lightpink;\">1fr</div>\n+\n+\n+       </div>\n+\n+\n         <div style=\"\n          margin-top: 30px;\n          display: grid;\n          grid-template-columns: 100px 1fr 2fr;\n@@ -37,6 +49,8 @@\n             <div style=\"background-color: lightblue;\">2fr</div>\n \n         </div>\n \n+\n+\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894647753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,6 +51,16 @@\n         </div>\n \n \n \n+        <div style=\" \n+            margin-top: 30px;\n+            display: grid;\n+            grid-template-columns: 1fr 1fr 1fr;\n+            column-gap: 20px;\n+            row-gap: 40px;\n+        \">\n+\n+        </div>\n+\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894677454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,10 @@\n             column-gap: 20px;\n             row-gap: 40px;\n         \">\n \n+            <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n+\n         </div>\n \n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894706812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,8 +60,9 @@\n             row-gap: 40px;\n         \">\n \n             <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n+            <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n \n         </div>\n \n     </body>\n"
+                },
+                {
+                    "date": 1709894762701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,72 @@\n+<!DOCTYPE html>\n+<html>\n+\n+    <head>\n+        <title>Grid Practice</title>\n+    </head>\n+\n+\n+    <body style=\"padding-bottom: 1000px;background-color: green;\">\n+        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n+                <div style=\"background-color: lightblue;\"> div 1</div>\n+                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n+        </div>\n+\n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        grid-template-columns: 100px 100px 200px;\n+        \">\n+\n+        <div style=\"background-color: lightblue;\">100px</div>\n+        <div style=\"background-color: lightpink;\">100px<p>text</p></div>\n+        <div style=\"background-color: lightblue;\">200px</div>\n+        <div style=\"background-color: lightpink;\">100px</div>\n+\n+        </div>\n+\n+        <div style=\"\n+        margin-top: 30px;\n+        display: grid;\n+        grid-template-columns: 100px 1fr;\n+       \">\n+\n+           <div style=\"background-color: lightblue;\">100px</div>\n+           <div style=\"background-color: lightpink;\">1fr</div>\n+\n+\n+       </div>\n+\n+\n+        <div style=\"\n+         margin-top: 30px;\n+         display: grid;\n+         grid-template-columns: 100px 1fr 2fr;\n+        \">\n+\n+            <div style=\"background-color: lightblue;\">100px</div>\n+            <div style=\"background-color: lightpink;\">1fr</div>\n+            <div style=\"background-color: lightblue;\">2fr</div>\n+\n+        </div>\n+\n+\n+\n+        <div style=\" \n+            margin-top: 30px;\n+            display: grid;\n+            grid-template-columns: 1fr 1fr 1fr;\n+            column-gap: 20px;\n+            row-gap: 40px;\n+        \">\n+\n+            <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n+            <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n+            <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n+            <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n+            \n+\n+        </div>\n+\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709894827300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,76 +63,8 @@\n             <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n             <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n             <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n             <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n-            \n-\n-        </div>\n-\n-    </body>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-    <head>\n-        <title>Grid Practice</title>\n-    </head>\n-\n-\n-    <body style=\"padding-bottom: 1000px;background-color: green;\">\n-        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n-                <div style=\"background-color: lightblue;\"> div 1</div>\n-                <div style=\"background-color: lightpink;\">div 2<p>text</p></div>\n-        </div>\n-\n-        <div style=\"\n-        margin-top: 30px;\n-        display: grid;\n-        grid-template-columns: 100px 100px 200px;\n-        \">\n-\n-        <div style=\"background-color: lightblue;\">100px</div>\n-        <div style=\"background-color: lightpink;\">100px<p>text</p></div>\n-        <div style=\"background-color: lightblue;\">200px</div>\n-        <div style=\"background-color: lightpink;\">100px</div>\n-\n-        </div>\n-\n-        <div style=\"\n-        margin-top: 30px;\n-        display: grid;\n-        grid-template-columns: 100px 1fr;\n-       \">\n-\n-           <div style=\"background-color: lightblue;\">100px</div>\n-           <div style=\"background-color: lightpink;\">1fr</div>\n-\n-\n-       </div>\n-\n-\n-        <div style=\"\n-         margin-top: 30px;\n-         display: grid;\n-         grid-template-columns: 100px 1fr 2fr;\n-        \">\n-\n-            <div style=\"background-color: lightblue;\">100px</div>\n-            <div style=\"background-color: lightpink;\">1fr</div>\n-            <div style=\"background-color: lightblue;\">2fr</div>\n-\n-        </div>\n-\n-\n-\n-        <div style=\" \n-            margin-top: 30px;\n-            display: grid;\n-            grid-template-columns: 1fr 1fr 1fr;\n-            column-gap: 20px;\n-            row-gap: 40px;\n-        \">\n-\n             <div style=\"background-color: lightblue; height: 200px;\">1fr</div>\n             <div style=\"background-color: lightpink; height: 200px;\">1fr</div>\n \n         </div>\n"
+                }
+            ],
+            "date": 1709892983534,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n\n    <head>\n        <title>Grid Practice</title>\n    </head>\n\n\n    <body style=\"padding-bottom: 1000px;\">\n        <div style=\"display: grid; grid-template-columns: 100px 100px;\">\n                <div style=\"background-color: lightblue;\"> div 1</div>\n                <div style=\"background-color: lightpink;\">div 2</div>\n        </div>\n    </body>\n</html>"
+        }
+    ]
+}
